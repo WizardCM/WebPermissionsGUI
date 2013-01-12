@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Permissions Web GUI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="assets/ico/favicon.png">
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">Permissions Web GUI</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="#">Home</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span2">
+        <h5><i class="icon-globe"></i> Worlds</h5>
+		
+		<div style="padding:8px; margin:8px">
+		
+			<p>
+				<button class="btn btn-small btn-block btn-primary" type="button">Global</button>
+			</p>
+			<p>
+				<button class="btn btn-small btn-block" type="button">lobby (default world)</button>
+			</p>
+			<p>
+				<button class="btn btn-small btn-block" type="button">survival</button>
+			</p>
+			<p>
+				<button class="btn btn-small btn-block" type="button">survival_nether</button>
+			</p>
+			<p>
+				<button class="btn btn-small btn-block" type="button">creative</button>
+			</p>
+			<p>
+				<button class="btn btn-small btn-block" type="button">arenas</button>
+			</p>
+			<p>
+				<button class="btn btn-small btn-block" type="button">sgames2</button>
+			</p>
+			
+		</div>
+		
+        </div>
+        <div class="span2">
+        <h5><i class="icon-user"></i> Groups</h5>
+		
+		<div style="padding:8px; margin:8px">
+		
+			<p>
+				<button class="btn btn-small btn-block" type="button">owner</button>
+			</p>
+			<p>
+				<button class="btn btn-small btn-block" type="button">admin</button>
+			</p>
+			<p>
+				<button class="btn btn-small btn-block" type="button">mod</button>
+			</p>
+			<p>
+				<button class="btn btn-small btn-block btn-primary" type="button">user</button>
+			</p>
+			<p>
+				<button class="btn btn-small btn-block" type="button">sr</button>
+			</p>
+			<p>
+				<button class="btn btn-small btn-block" type="button">default</button>
+			</p>
+			
+		</div>
+			
+       </div>
+	   
+        <div class="span3">
+        <h5><i class="icon-list"></i> Group Permissions</h5>
+		
+			<div style="height:500px; overflow-y:auto; padding:8px; margin:8px">
+		
+			<p>
+				<button class="btn btn-small" type="button"><i class="icon-plus"></i> MonsterMOTD [1]</button>
+			</p>
+			
+			<p>
+				<button class="btn btn-small" type="button"><i class="icon-minus"></i> RoyalChat [3]</button>
+			</p>
+			
+				<p style="margin-left:35px;">
+					<button class="btn btn-mini" type="button">.me</button> 
+					<button class="btn btn-mini" style="float: right;" type="button">x</button>
+				</p>
+				<p style="margin-left:35px;">
+					<button class="btn btn-mini" type="button">.ch</button>
+					<button class="btn btn-mini" style="float: right;" type="button">x</button>
+				</p>
+				<p style="margin-left:35px;">
+					<button class="btn btn-mini" type="button">.clear</button>
+					<button class="btn btn-mini" style="float: right;" type="button">x</button>
+				</p>
+				
+			<p>
+				<button class="btn btn-small" type="button">
+				<i class="icon-minus"></i> RoyalCommands [3]</button>
+			</p>
+			
+				<p style="margin-left:35px;">
+					<button class="btn btn-mini" type="button">.warp</button> 
+					<button class="btn btn-mini" style="float: right;" type="button">x</button>
+				</p>
+				<p style="margin-left:35px;">
+					<button class="btn btn-mini" type="button">.delwarp</button>
+					<button class="btn btn-mini" style="float: right;" type="button">x</button>
+				</p>
+				<p style="margin-left:35px;">
+					<button class="btn btn-mini" type="button">.setwarp</button>
+					<button class="btn btn-mini" style="float: right;" type="button">x</button>
+				</p>
+				
+			<p>
+				<button class="btn btn-small" type="button"><i class="icon-plus"></i> SignEdit [1]</button>
+			</p>
+			
+	
+			<p>
+				<button class="btn btn-small" type="button"><i class="icon-minus"></i> WorldEdit [2]</button>
+			</p>
+				
+				<p style="margin-left:35px;">
+					<button class="btn btn-mini" type="button">.tool</button> 
+					<button class="btn btn-mini" style="float: right;" type="button">x</button>
+				</p>
+				<p style="margin-left:35px;">
+					<button class="btn btn-mini" type="button">.expand</button>
+					<button class="btn btn-mini" style="float: right;" type="button">x</button>
+				</p>
+				
+			</div>
+		
+        </div>
+        <div class="span2">
+			<h5><i class="icon-wrench"></i> Group Options</h5>
+			<div style="padding:8px; margin:8px">
+				<p>Not yet designed.</p>
+			</div>
+       </div>
+        <div class="span3">
+          <h5><i class="icon-plus"></i> Add Plugin-based Permissions</h5>
+			
+			<div style="height:500px; overflow-y:auto; padding:8px; margin:8px">
+		  
+		  
+				<p>
+					<button class="btn btn-small" type="button" id="added-bukkit" onclick="toggle_button('add-bukkit', this.id);"><i class="icon-minus"></i> Bukkit [40]</button>
+				</p>
+				<div id="add-bukkit" style="display: block;">
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.command.version</button> 
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.command.plugins</button>
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.command.reload</button>
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.command.timings</button>
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.command.tell</button>
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.command.kill</button>
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.command.me</button>
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.command.help</button>
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.command.kick</button>
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.command.ban.player</button>
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.command.ban.list</button>
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.command.unban.player</button>
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.command.ban.ip</button>
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.command.unban.ip</button>
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.command.op.give</button>
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.command.op.take</button>
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.command.teleport</button>
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.command.give</button>
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.command.stop</button>
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.command.save.perform</button>
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.command.save.disable</button>
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.command.save.enable</button>
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.command.list</button>
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.command.say</button>
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.command.whitelist.enable</button>
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.command.whitelist.disable</button>
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.command.whitelist.add</button>
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.command.whitelist.remove</button>
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.command.whitelist.list</button>
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.command.whitelist.reload</button>
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.command.time.add</button>
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.command.time.set</button>
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.command.gamemode</button>
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.command.xp</button>
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.command.toggledownfall</button>
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.command.defaultgamemode</button>
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.command.seed</button>
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.command.enchant</button>
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.command.weather</button>
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.command.clear</button>
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.command.difficulty</button>
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.command.spawnpoint</button>
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.command.gamerule</button>
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+				</div>
+				
+				<p>
+					<button class="btn btn-small" type="button" id="added-royalchat" onclick="toggle_button('add-royalchat', this.id);"><i class="icon-minus"></i> RoyalChat [3/6]</button>
+				</p>
+				<div id="add-royalchat" style="display: block;">
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.rchat</button>
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.say</button> 
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+					<p style="margin-left:35px;">
+						<button class="btn btn-mini" type="button">.color</button>
+						<button class="btn btn-mini" style="float: right;" type="button">+</button>
+					</p>
+				</div>
+				
+		  </div>
+		  
+		  
+		  
+        </div>
+      </div>
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap-transition.js"></script>
+    <script src="assets/js/bootstrap-alert.js"></script>
+    <script src="assets/js/bootstrap-modal.js"></script>
+    <script src="assets/js/bootstrap-dropdown.js"></script>
+    <script src="assets/js/bootstrap-scrollspy.js"></script>
+    <script src="assets/js/bootstrap-tab.js"></script>
+    <script src="assets/js/bootstrap-tooltip.js"></script>
+    <script src="assets/js/bootstrap-popover.js"></script>
+    <script src="assets/js/bootstrap-button.js"></script>
+    <script src="assets/js/bootstrap-collapse.js"></script>
+    <script src="assets/js/bootstrap-carousel.js"></script>
+    <script src="assets/js/bootstrap-typeahead.js"></script>
+	<script type="text/javascript">
+<!--
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+		  
+       else
+          e.style.display = 'block';
+    }
+	
+    function toggle_button_icon(collapse, button) {
+        var elms = document.getElementById(button).getElementsByTagName("*");
+        if(document.getElementById(collapse).style.display == 'block')
+            elms[0].className = "icon-minus";
+        else
+            elms[0].className = "icon-plus";
+    }
+	    function toggle_button(list, button) {
+        toggle_visibility(list);
+        toggle_button_icon(list, button);
+    }
+//-->
+</script>
+
+  </body>
+</html>
